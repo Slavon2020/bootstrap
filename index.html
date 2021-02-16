@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contacts</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-warning" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="banner d-flex flex-column justify-content-center align-items-center">
+		<div class="container">
+			<h1 class="display-2">Website on Bootstrap 4</h1>
+			<p class="lead">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, odio!
+			</p>
+		</div>
+	</div>
+	<div class="main-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 order-3 order-lg-1">
+				<div class="card mb-4">
+					<img src="images/author.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">About me</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ex molestiae nobis obcaecati quas sapiente vitae! Deleniti deserunt illum tempora.</p>
+					</div>
+				</div>
+				<h3>Subscribe</h3>
+				<div class="subscribe-wrap block">
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+						</div>
+						<button type="submit" class="btn btn-success">Subscribe</button>
+					</form>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-8 order-1 order-lg-2">
+				<div class="card mb-4">
+					<img src="images/photo-1.jpg" class="card-img-top" alt="image">
+					<div class="card-body">
+						<h5 class="card-title">Post title</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid aperiam autem deserunt earum excepturi explicabo harum itaque maiores non quidem quo, saepe tempora velit!</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						<a href="#" class="btn btn-outline-primary">Read more...</a>
+					</div>
+				</div>
+				<div class="card mb-4">
+					<img src="images/photo-2.jpg" class="card-img-top" alt="image">
+					<div class="card-body">
+						<h5 class="card-title">Post title</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid aperiam autem deserunt earum excepturi explicabo harum itaque maiores non quidem quo, saepe tempora velit!</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						<a href="#" class="btn btn-outline-primary">Read more...</a>
+					</div>
+				</div>
+				<div class="card mb-4">
+					<img src="images/photo-3.jpg" class="card-img-top" alt="image">
+					<div class="card-body">
+						<h5 class="card-title">Post title</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid aperiam autem deserunt earum excepturi explicabo harum itaque maiores non quidem quo, saepe tempora velit!</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						<a href="#" class="btn btn-outline-primary">Read more...</a>
+					</div>
+				</div>
+				<nav aria-label="Page navigation example">
+					<ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item  active"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					</ul>
+				</nav>
+
+			</div>
+			<div class="col-lg-3 col-md-4 order-2 order-lg-3">
+				<div class="list-group mb-4">
+					<a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+						Section 1
+					</a>
+					<a href="#" class="list-group-item list-group-item-action">Section 2</a>
+					<a href="#" class="list-group-item list-group-item-action">Section 3</a>
+					<a href="#" class="list-group-item list-group-item-action">Section 4</a>
+					<a href="#" class="list-group-item list-group-item-action">Section 5</a>
+				</div>
+				<h3>Tags cloud</h3>
+				<div class="tags-wrap block mb-4">
+					<a href="#" class="badge bg-info">travel</a>
+					<a href="#" class="badge bg-info">rest</a>
+					<a href="#" class="badge bg-info">photos</a>
+					<a href="#" class="badge bg-info">mountain</a>
+					<a href="#" class="badge bg-info">forest</a>
+					<a href="#" class="badge bg-info">lake</a>
+				</div>
+				<h3>Gallery</h3>
+				<div class="gallery-wrap block">
+					<div class="row g-0">
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-1.jpg">
+						</div>
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-2.jpg">
+						</div>
+					</div>
+					<div class="row g-0">
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-3.jpg">
+						</div>
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-4.jpg">
+						</div>
+					</div>
+					<div class="row g-0">
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-5.jpg">
+						</div>
+						<div class="col-6">
+							<img class="img-fluid" src="images/gallery-6.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12">
+					<h3>Traveller's blog</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis cum dicta ducimus eligendi, error eveniet minima modi nobis praesentium quasi quod rem vel veritatis vero?</p>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<h3>Contacts</h3>
+					<address>
+						<b>Twitter, Inc.</b><br>
+						c/o Trust & Safety - Legal Policy<br>
+						1355 Market Street, Suite 900<br>
+						San Francisco, CA 94103
+					</address>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<h3>Navigation</h3>
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="copyright">
+		<div class="container">
+			<img class="mb-2" src="images/logo.png" alt="logo">
+			<p>&#169 Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		</div>
+	</div>
+
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
